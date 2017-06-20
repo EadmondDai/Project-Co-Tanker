@@ -8,7 +8,7 @@
 #include "Co_TankerGameModeBase.generated.h"
 
 /**
- * 
+ * This is the base class for a blueprint game mode class
  */
 UCLASS()
 class CO_TANKER_API ACo_TankerGameModeBase : public AGameModeBase
