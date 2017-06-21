@@ -10,6 +10,8 @@ ACo_TankerGameModeBase::ACo_TankerGameModeBase(const FObjectInitializer & Object
 	// Change the default controller to tank controller
 	PlayerControllerClass = ATankController::StaticClass();
 
+	
+
 	// change defualt flying pawn into tank pawn
 	//static ConstructorHelpers::FClassFinder<> PawnClass(TEXT("Blueprint'/Game/Tank/TestTank.TestTank'"))
 	//DefaultPawnClass = 
